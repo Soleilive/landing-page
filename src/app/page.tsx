@@ -5,7 +5,7 @@ export default function Home() {
     <main className="bg-[#0D1821] h-screen w-screen text-white">
       <div className="basetext">
         <div className="absolute tbase lbase">
-          <p className="font-bold">SoveiLive - The social network where you really control your data</p>
+          <p className="font-bold">SoveiLive</p>
         </div>
         <div className="absolute flex items-center justify-between wbase rbase t2base">
           <p className="opacity-75">Governance</p>
