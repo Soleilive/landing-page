@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="bg-[#0D1821] h-screen w-screen text-white">
-      <navbar className="basetext">
+      <div className="basetext">
         <div className="absolute tbase lbase">
           <p className="font-bold">Soveilive</p>
         </div>
@@ -14,9 +14,9 @@ export default function Home() {
           <p className="opacity-75">FAQ</p>
           <a href="https://app.sovei.live"><button className="bg-[#EAB308] px-8 py-2 rounded-2xl">Launch App</button></a>
         </div>
-      </navbar>
-      <div class="gr bg-green-500 absolute top-[50%] translate-y-[-50%]">
-        <div id="first" class=""></div>
+      </div>
+      <div className="gr bg-green-500 absolute top-[50%] translate-y-[-50%]">
+        <div id="first"></div>
       </div>
       <div id="social" className="absolute fit-content">
         <h1 className="">SOVEI<span className="font-bold">·LIVE</span></h1>
