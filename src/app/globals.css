@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+h1 {
+  font-size: calc(64vw * 100 / 1440);
+}
+
+h2 {
+  font-size: calc(24vw * 100 / 1440);
+}
+
+#social {
+  bottom: calc(109vh * 100 / 900);
+  left:   calc(92vw * 100 / 1440);;
+}
+
+.icon {
+  width: calc(147vw * 100/1440);
+}
+
+.icon img {
+  width: calc(32vw * 100/1440);
+  height: calc(32vw * 100/1440);
+}
+
+.heroimg {
+  width: calc(728vw * 100/1440);
+  height: auto;
+}
+
+.poti {
+  margin-top: calc(22vh * 100/900);
+}
+
+.gr {
+  width: calc(728vw * 100/1440);
+  height: calc(174vw * 100 / 1440);
+  right: calc(88vw * 100 / 1440);
+}
+
+.basetext {
+  font-size: calc(16vw * 100 / 1440);
+}
+
+.tbase {
+  top: calc(43vh * 100 / 900);
+}
+
+.t2base {
+  top: calc(30vh * 100 / 900);
+}
+
+.lbase {
+  left: calc(56vw * 100 / 1440);
+}
+
+.rbase {
+  right: calc(56vw * 100 / 1440);
+}
+
+.wbase {
+  width: calc(568vw * 100 / 1440);
+}
