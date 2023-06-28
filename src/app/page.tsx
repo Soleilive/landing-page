@@ -22,7 +22,7 @@ export default function Home() {
         <h1 className="">SOVEI <span className="font-semibold"> LIVE</span></h1>
         <h2 className="poti font-light">The social network where you really control your data,
 <br/>thanks to web3.</h2>
-        <div className="flex icon h-8 white-text justify-between items-center poti">
+        <div className="flex icon white-text justify-between items-center poti">
           <Image
             src="/twitter.svg"
             width={32}

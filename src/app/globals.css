@@ -27,7 +27,8 @@ body {
 }
 
 h1 {
-  font-size: calc(64vw * 100 / 1440);
+  font-size: calc(56vw * 100 / 1440);
+  line-height: calc(56vw * 100 / 1440);
   font-weight: 300;
 }
 
