@@ -12,11 +12,8 @@ export default function Home() {
           <p className="opacity-75">Whitepaper</p>
           <p className="opacity-75">Blog</p>
           <p className="opacity-75">FAQ</p>
-          <a href="https://app.sovei.live" target="_blank"><button className="bg-[#EAB308] px-8 py-2 rounded-2xl">Launch App</button></a>
+          <a href="https://app.sovei.live" target="_blank"><button className="border border-1 px-8 py-2 rounded-lg border-[#48505c] hover:bg-[#EAB308] transition-all duration-300 hover:border-[#0D1821]">Launch App</button></a>
         </div>
-      </div>
-      <div className="gr bg-green-500 absolute top-[50%] translate-y-[-50%]">
-        <div id="first"></div>
       </div>
       <div id="social" className="absolute fit-content">
         <h1 className="">SOVEI <span className="font-semibold"> LIVE</span></h1>
