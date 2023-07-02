@@ -1,6 +1,11 @@
-# SoveiLive
+<div align="center">
+	<a href="https://sovei.live">
+		<img width="300" height="300" src="https://raw.githubusercontent.com/SoveiLive/app-core/main/public/cover.png" alt="SoveiLive">
+	</a>
 
+  # SoveiLive
 ![Netlify](https://img.shields.io/netlify/e7611a7b-79f8-4d7c-85e0-eadf6949fcad)
+</div>
 
 SoveiLive is a social network where users have data ownership. This repository is dedicated to the introduction site. For the platform, go to [App Core](https://github.com/SoveiLive/app-core).
 
