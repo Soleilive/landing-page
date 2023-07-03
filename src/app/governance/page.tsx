@@ -9,7 +9,7 @@ export default function Home() {
           <p className="font-bold"><Link href="/">SoveiLive</Link></p>
         </div>
         <div className="absolute flex items-center justify-between wbase rbase t2base">
-          <p className="opacity-75"><Link href="/governance">Governance</Link></p>
+          <p className=""><Link href="/governance">Governance</Link></p>
           <p className="opacity-75"><a href="/whitepaper.pdf" target="blank_">Whitepaper</a></p>
           <p className="opacity-75"><a href="https://mirror.xyz/0x38915f7d74b465bD889f65898c8D94A0534c0a65" target="blank_">Blog</a></p>
           <p className="opacity-75"><Link href="/faq">FAQ</Link></p>
