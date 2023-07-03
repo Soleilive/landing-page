@@ -17,28 +17,28 @@ export default function Home() {
         </div>
       </div>
       <div id="social" className="absolute fit-content">
-        <h1 className="">SOVEI <span className="font-semibold"> LIVE</span></h1>
+        <h1 className="font-light">SOVEI <span className="font-semibold"> LIVE</span></h1>
         <h2 className="poti font-light">The social network where you really control your data,
 <br/>thanks to web3.</h2>
         <div className="flex icon white-text justify-between items-center poti">
-          <Image
+          <a href="https://twitter.com/SoveiLive" target="blank_"><Image
             src="/twitter.svg"
             width={32}
             height={32}
-            alt="Picture of the author"
-          />
-          <Image
+            alt="Twitter"
+          /></a>
+          <a href="https://github.com/SoveiLive/" target="blank_"><Image
             src="/github.svg"
             width={32}
             height={32}
-            alt="Picture of the author"
-          />
-          <Image
+            alt="Github"
+          /></a>
+          <a href="https://discord.gg/Rf2DJPAwxE" target="blank_"><Image
             src="/discord.svg"
             width={32}
             height={32}
-            alt="Picture of the author"
-          />
+            alt="Discord"
+          /></a>
         </div>
       </div>
     </main>

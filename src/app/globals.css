@@ -29,7 +29,6 @@ body {
 h1 {
   font-size: calc(56vw * 100 / 1440);
   line-height: calc(56vw * 100 / 1440);
-  font-weight: 300;
 }
 
 h2 {
@@ -87,4 +86,17 @@ h2 {
 
 .wbase {
   width: calc(568vw * 100 / 1440);
+}
+
+.toppad {
+  padding-top: calc(200vh * 100/900);
+  padding-left: calc(56vw * 100 / 1440);
+}
+
+.content {
+  width: 50%;
+}
+
+.content p, li {
+  font-size: 16px;
 }
