@@ -20,7 +20,7 @@ export default function Home() {
         <h1 className="">Governance</h1>
         <p className="poti font-light whitespace-pre-line">In the future, we plan to build a DAO to govern the project. Stay tuned.
 <br/>
-In the meantime, here's a cat.
+In the meantime, here&#39;s a cat.
 <br/>
 <br/>
 <pre>
