@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'SoveiLive - The social network',
-  description: 'The social network where you really control your data, thanks to web3.',
+  title: 'SoveiLive - The social media',
+  description: 'The social media where you really control your data, thanks to web3.',
 }
 
 export default function RootLayout({

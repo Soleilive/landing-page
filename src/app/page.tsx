@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div id="social" className="absolute fit-content">
         <h1 className="font-light">SOVEI <span className="font-semibold"> LIVE</span></h1>
-        <h2 className="poti font-light">The social network where you really control your data,
+        <h2 className="poti font-light">The social media where you really control your data,
 <br/>thanks to web3.</h2>
         <div className="flex icon white-text justify-between items-center poti">
           <a href="https://twitter.com/SoveiLive" target="blank_"><Image

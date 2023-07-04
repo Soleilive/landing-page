@@ -19,7 +19,7 @@ export default function Home() {
       <div className="fit-content content">
         <h1 className="">FAQ</h1>
         <h2 className="my-4">Introduction</h2>
-        <p>SoveiLive is a social network where users have data ownership. The application will be completely decentralized and accessible to as many people as possible: it will be possible to use the application gas-free.</p>
+        <p>SoveiLive is a social media where users have data ownership. The application will be completely decentralized and accessible to as many people as possible: it will be possible to use the application gas-free.</p>
         <h2 className="my-4">What problems are we solving?</h2>
         <ul className="list-decimal">
           <li className="mb-2"><span className="underline">Decentralization</span> : By using <a className="underline" href="https://db3.network/" target="blank_">DB3</a> as database provider, we ensure that our app is fully decentralized.</li>
